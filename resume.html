@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="description" content="This is my portfolio website :D">
+        <meta name="author" content="Miguel Marombal">
+        <meta name="theme-color" content="#1e1e1e">
+        <title>Miguel Marombal — Resume</title>
+
+        <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono&family=Space+Mono&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="styles.css">
+        <link rel="icon" type="image/png" href="images/favicon.png">
+    </head>
+    <body>
+        <header>
+            <h1>Resume</h1>
+            <hr>
+            <nav>
+                <a href="index.html">home</a>
+                <a href="resume.html" class="active">resume</a>
+                <a href="projects.html">projects</a>
+                <a href="learning.html">learning</a>
+            </nav>
+            <hr>
+        </header>
+
+        <main>
+            <h3>Initial Prologue</h3>
+            <p>
+                I feel like resumes are the corporate world's equivalent of dating app profiles. 
+                You write wonderful things about yourself, pretending you're such an interesting and useful human being, 
+                waiting for someone naive enough to believe it.<br><br>
+                Jokes aside, writing a resume is, for me, an interesting, nostalgic exercise in trying to find the most 
+                interesting and useful insights from the work I've been doing over the past few years. 
+                Therefore, trust me when I say it was quite amusing (but also challenging) to concatenate 
+                my professional history into such a small text.
+            </p>
+            <hr>
+            <h3 class="center-text">Miguel Marombal's Resume (yeah, that's me)</h3>
+            
+            <img src="images/MiguelMarombal.png"
+                alt="This shall be an image of me"
+            height="200">
+
+            <!-- WORK HERE -->
+            <hr>
+
+            <h3>Professional Experience</h3>
+
+            <p><strong class="highlight">Embedded Software Engineer | BOSCH</strong><br>
+            <small>2024 - present · Braga, Portugal</small></p>
+            <ul>
+                <li>
+                    Developing safety-critical software components for an Airbag ECU (ISO 26262 ASIL-D), 
+                    implementing MCAL drivers within an AUTOSAR layered architecture to interface with system ASICs via SPI.
+                </li>
+                <li>
+                    Performing the full ASPICE development lifecycle—from requirement derivation to 
+                    detailed design—ensuring strict adherence to MISRA C and CERT C coding standards for all safety-critical implementations.
+                </li>
+                <li>
+                    Performing unit and integration testing using VectorCAST to achieve high code coverage, 
+                    ensuring full traceability between system requirements and validated implementation.
+                </li>
+                <li>
+                    Developing pure::variants pvSCL code to automate configuration and code generation processes.
+                </li>
+            </ul>
+
+            <p><strong class="highlight">Research Grant | INESC TEC - Instituto de Engenharia de Sistemas e Computadores, Tecnologia e Ciência</strong><br>
+            <small>2022 - 2024 · Porto, Portugal</small></p>
+            <ul>
+                <li>
+                    Developed the master thesis <em>"Robotic System for Reproducible Mobile Experimentation in Anechoic Chambers"</em>.
+                    Consisting in the development of a framework to control a UR robotic arm using ROS and MoveIt Framework to position a 5G Base Station.
+                    Integrated the robotic system with Network Simulator 3 (ns-3) using C++ and MQTT enabling the system's Digital Twin.
+                </li>
+                <li>
+                    Oriented 3 students in the CTM Summer Internship that lead to a Python and YOLO based <em>"Framework for the Obstacle-aware Positioning 
+                    of a Mobile Robotic Platform in 6G Networks"</em>.
+                </li>
+            </ul>
+
+            <hr>
+
+            <h3>Education</h3>
+
+            <p><strong class="highlight">Master of Electrical and Computer Engineering</strong><br>
+            <small>FEUP — University of Porto · 2022 - 2024 · Grade: 18/20</small></p>
+
+            <p><strong class="highlight">ERASMUS+ Exchange Student</strong><br>
+            <small>University of Zagreb, Faculty of EE and Computing · 2023 - 2024 · Grade: 4.5/5.0</small></p>
+
+            <p><strong class="highlight">Bachelor of Electrical and Computer Engineering</strong><br>
+            <small>FEUP — University of Porto · 2019 - 2022 · Grade: 16/20</small></p>
+
+            <hr>
+
+            <h3>Academic Projects</h3>
+
+            <p><strong class="highlight">Heuristic Algorithm for the Vehicle Routing Problem with Time Windows (VRPTW)</strong><br>
+            <small>2024 · Heuristic Optimization Methods</small></p>
+            <ul>
+                <li>Implemented in Python a hybrid algorithm combining Tabu Search, Simulated Annealing, and Destroy & Repair strategies to solve
+                the Solomon Benchmarking Dataset assessment.</li>
+            </ul>
+
+            <p><strong class="highlight">Storytelling Robot for User Interaction</strong><br>
+            <small>2024 · Human-Robot Interaction</small></p>
+            <ul>
+                <li>Developed, in collaboration with 2 students, a minimalistic storytelling robot intended to gaze and interact with users.</li>
+                <li>Employed real-time YOLO computer vision using Python to detect user presence and position in under 500 ms.</li>
+                <li>Programmed a Raspberry Pi Pico in C to control servo motors enabling gaze and interaction movements.</li>
+            </ul>
+
+            <p><strong class="highlight">Contactless Light Switch and Dimmer</strong><br>
+            <small>2023 · Systems Engineering</small></p>
+            <ul>
+                <li>Designed and developed a contactless light switch and dimmer controlled by sound and hand gestures, as Assistant Team Leader in a team of 10.</li>
+                <li>Implemented a low-cost electret microphone, a Time-of-Flight (ToF) sensor, and a Raspberry Pi Pico programmed in C/C++.</li>
+                <li>Successfully completed the product with a total budget under 80€.</li>
+            </ul>
+
+            <p><strong class="highlight">Music Organizer Software</strong><br>
+            <small>2023 · Software Design</small></p>
+            <ul>
+                <li>Designed and developed a Music Organizer in JAVA to manage and reproduce playlists with a team of 3 students.</li>
+                <li>Applied OOP concepts, UML diagrams, and established Design Patterns for scalability and maintainability.</li>
+                <li>Integrated with a PostgreSQL relational database to manage users' music metadata and playlists.</li>
+                <li>Source Code -> <a href="https://github.com/Marombal/SoftwareDesign-MEEC">github.com/Marombal/SoftwareDesign-MEEC</a></li>
+            </ul>
+
+            <p><strong class="highlight">Wall-Following Robot</strong><br>
+            <small>2023 · Embedded Computing Architectures</small></p>
+            <ul>
+                <li>Developed a wall-following robot using a Raspberry Pi Pico programmed in C/C++ as the control unit.</li>
+                <li>Equipped with Time-of-Flight (ToF) sensors to detect and maintain a set distance from walls, and DC motors for movement.</li>
+                <li>Source Code -> <a href="https://github.com/Marombal/EmbeddedComputingArchitectures_FinalProject-MEEC">github.com/Marombal/EmbeddedComputingArchitectures_FinalProject-MEEC</a></li>
+            </ul>
+
+            <p><strong class="highlight">Machine Learning for Object Detection and Identification</strong><br>
+            <small>2023 · Machine Learning</small></p>
+            <ul>
+                <li>Applied Kalman Filters to estimate a mobile robot's position from velocity and position measurements.</li>
+                <li>Used linear regression with Ridge and Lasso techniques to construct an environment map from 2D Lidar data.</li>
+                <li>Implemented clustering, k-NN, and ANN methods for object classification and identification in robotic environments.</li>
+            </ul>
+
+            <p><strong class="highlight">Object Sorting Demonstrator based on Computer Vision and RFID</strong><br>
+            <small>2022 · Capstone Project</small></p>
+            <ul>
+                <li>Collaborated in a team of 6 students to develop a demonstrator capable of sorting objects by 
+                    shape and color using CV, RFID, and a Robotic Arm.
+                </li>
+                <li>Source Code -> <a href="https://github.com/Marombal/Capstone-Project-LEEC">github.com/Marombal/Capstone-Project-LEEC</a></li>
+            </ul>
+
+            <hr>
+
+            <h3>Skills</h3>
+
+            <p><strong class="highlight">Programming Languages</strong><br>
+            C/C++, Python, Java, Matlab/Octave</p>
+
+            <p><strong class="highlight">Databases</strong><br>
+            SQL (PostgreSQL), NoSQL (MongoDB)</p>
+
+            <p><strong class="highlight">Communication Protocols</strong><br>
+            UART, SPI, I2C, CAN, OPC-UA, Modbus, LoRa, MQTT, TCP/IP</p>
+
+            <p><strong class="highlight">Software Frameworks & DevOps</strong><br>
+            GNU/Linux, CI/CD (Git, RTC), ROS, FreeRTOS</p>
+
+            <hr>
+
+            <h3>Languages</h3>
+
+            <p>Portuguese (native) · English (fluent)</p>
+
+            <hr>
+
+            <h3>Hobbies, Challenges and Non-tecnhical Activities</h3>
+
+            <p><strong class="highlight">Representative — Mostra U.Porto</strong><br>
+            <small>2023 - 2024</small></p>
+            <ul>
+                <li>Represented FEUP's Department of ECE and INESC TEC's Center of Telecommunications and Multimedia at Mostra U.Porto, an annual event inspiring younger students by showcasing academic and research opportunities.</li>
+            </ul>
+
+            <p><strong class="highlight">Football Player — CD Trofense</strong><br>
+            <small>2010 - 2017</small></p>
+            <ul>
+                <li>Played as goalkeeper for CD Trofense for 7 years.</li>
+            </ul>
+        </main>
+
+        <footer>
+            <br>
+            <hr>
+            Contacts<br>
+            <div class="contact-links">
+                <a href="https://github.com/marombal" target="_blank" rel="noopener noreferrer">
+                    <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/>
+                    </svg>
+                    marombal
+                </a>
+                <a href="https://www.linkedin.com/in/miguelmarombal/" target="_blank" rel="noopener noreferrer">
+                    <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 0 1-2.063-2.065 2.064 2.064 0 1 1 2.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+                    </svg>
+                    miguelmarombal
+                </a>
+                <a href="mailto:miguel.marombal@gmail.com" target="_blank" rel="noopener noreferrer">
+                    <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4-8 5-8-5V6l8 5 8-5v2z"/>
+                    </svg>
+                    miguel.marombal@gmail.com
+                </a>
+            </div>
+        </footer>
+    </body>
+</html>
